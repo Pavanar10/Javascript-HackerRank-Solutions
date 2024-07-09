@@ -4,7 +4,7 @@ function gridSearch(G, P) {
 let n=G.length;
     let m=P.length;
     
-    for(let i=0;i<n-m;i++){
+    for(let i=0;i<=n-m;i++){
         for(let j=0;j<=G[i].length-P[0].length;j++){
             let check=true;
             for(let k=0;k<m;k++){
